@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SureActivity"
+    android:background="@color/light_green"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/SureBasligi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Süre Giriniz"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="Not:Dakika Cinsinden girmeniz gerekmektedir."
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/Sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:inputType="number"
+        android:hint="Sure"/>
+    <Button
+        android:id="@+id/SureButon"
+        android:backgroundTint="@color/dark_green"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="360dp"
+        android:text="Başla"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/GeriDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/dark_green"
+        android:text="Geri Dön"
+        android:layout_gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        />
+
+</LinearLayout>

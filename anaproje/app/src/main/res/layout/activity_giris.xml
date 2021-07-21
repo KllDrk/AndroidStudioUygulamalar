@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisActivity"
+    android:background="@color/light_green"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:text="Kayıt Olma"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/MailAdresi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:hint="Mail Adresi"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/Şifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:hint="Şifre"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_green"
+        android:text="Giriş Yap"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+    <Button
+        android:id="@+id/AnaMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_green"
+        android:text="Ana Menü"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintRight_toLeftOf="parent"/>
+
+</LinearLayout>

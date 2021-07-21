@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "621083535518",
+    "firebase_url": "https://anaproje-be5b0-default-rtdb.firebaseio.com",
+    "project_id": "anaproje-be5b0",
+    "storage_bucket": "anaproje-be5b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621083535518:android:566fa9764c76e3bfee338f",
+        "android_client_info": {
+          "package_name": "com.example.anaproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621083535518-3bqna1fscs3b9lubv29ht94bs1961u4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6_lFPHcGvTbb4Ixzr_WB5YwKu7g3lQrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621083535518-3bqna1fscs3b9lubv29ht94bs1961u4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
